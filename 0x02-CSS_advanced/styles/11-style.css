@@ -61,7 +61,7 @@ a {
 }
 
 .section-tagline {
-    font-family: var(--font-family-title); /* Updated to use font-family-title */
-    font-weight: var(--font-weight-bold); /* Updated to use font-weight-bold */
-    text-transform: var(--section-tagline-transform); /* Updated to transform text */
+    font-family: var(--font-family-title); /* Set font family */
+    text-transform: var(--section-tagline-transform); /* Transform text */
+    font-weight: var(--font-weight-bold); /* Set font weight */
 }

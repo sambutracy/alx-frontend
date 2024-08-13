@@ -1,0 +1,29 @@
+/* Define custom properties on the root element */
+:root {
+    --color-primary: #d73953;
+    --color-black: #090909;
+    --color-white: #ffffff;
+    --color-light-grey: #f3f3f3;
+    --color-dark-grey: #353535;
+    --text-color: var(--color-black);
+}
+
+/* Reset color for section-tagline to color-primary */
+.section-tagline {
+    color: var(--color-primary);
+}
+
+/* Reset color for card-category to color-primary */
+.card-category {
+    color: var(--color-primary);
+}
+
+/* Reset color for body to text-color */
+body {
+    color: var(--text-color);
+}
+
+/* Reset color for anchor elements to text-color */
+a {
+    color: var(--text-color);
+}

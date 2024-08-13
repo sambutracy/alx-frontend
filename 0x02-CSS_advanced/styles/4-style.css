@@ -14,7 +14,14 @@ h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-family-title);
 }
 
-/* Reset color for anchor elements */
+/* Reset color for section-tagline and card-category */
+.section-tagline,
+.card-category {
+    color: var(--color-primary);
+}
+
+/* Reset color for body and anchor elements */
+body,
 a {
     color: var(--text-color);
 }

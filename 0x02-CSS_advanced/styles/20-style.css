@@ -2,6 +2,7 @@
 html {
     line-height: 1.15;
     -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
 }
 
 body {
@@ -375,7 +376,7 @@ ul.row {
     text-align: right;
 }
 
-.row + .row::after {
+.row::after {
     content: "";
     display: table;
     clear: both;
